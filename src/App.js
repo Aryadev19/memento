@@ -98,6 +98,9 @@ function App() {
           );
         })}
       </div>
+      <footer>
+        <p>Made with ❤️ by Aryadev!</p>
+      </footer>
     </>
   );
 }

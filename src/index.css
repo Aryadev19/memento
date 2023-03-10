@@ -47,6 +47,23 @@ body {
   font-family: var(--font-family);
 }
 
+footer {
+  height: 4rem;
+  display: flex;
+  padding: 0.5rem;
+  align-items: center;
+  background: var(--card);
+  box-shadow: var(--shadow);
+  border-radius: var(--radius);
+  animation: var(--card-enter);
+  justify-content: space-evenly;
+}
+
+footer > p {
+  margin: auto;
+  color: var(--text);
+}
+
 /* ========= Menu ======================== */
 header {
   width: 100%;
